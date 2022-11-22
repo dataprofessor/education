@@ -9,8 +9,6 @@ st.set_page_config(
 st.header("Welcome to Streamlit Education! 👋")
 st.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet lacus nulla, vitae faucibus erat cursus ut. Nullam quam lorem, semper eu nulla sit amet, pharetra viverra mi. Donec suscipit ligula metus, nec venenatis orci pellentesque et. Quisque ac sem eros. Duis non tellus vel est dictum interdum. Nam pulvinar mattis rhoncus. In sit amet ante ut odio scelerisque ullamcorper. Aliquam hendrerit facilisis purus eu mollis. Maecenas iaculis eget turpis nec mollis.')
 
-load_css()
-
 st.markdown('''
 <div class="px-4 pt-5 my-5 text-center border-bottom">
     <h1 class="display-4 fw-bold">Centered screenshot</h1>
@@ -28,3 +26,7 @@ st.markdown('''
     </div>
 </div>
 ''', unsafe_allow_html=False)
+
+load_css()
+
+
