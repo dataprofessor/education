@@ -1,5 +1,6 @@
 import streamlit as st
 from utilities import load_css
+from PIL import Image
 
 st.set_page_config(
     page_title="Hello",
@@ -27,9 +28,8 @@ st.markdown('''
 </div>
 ''', unsafe_allow_html=True)
 
-st.markdown('''
-<img src="https://github.com/dataprofessor/education/raw/master/bootstrap-docs.png">
-''', unsafe_allow_html=True)
+image = Image.open('bootstrap-docs.png')
+st.image(image
 
 load_css()
 
