@@ -23,7 +23,7 @@ st.markdown('''
     </div>
     <div class="overflow-hidden" style="max-height: 30vh;">
       <div class="container px-5">
-        <img src="https://education.streamlit.app:443/~/+/bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+        <img src="https://education.streamlit.app/~/+/media/b289cdc5f56d9f9537eaa2f4ba6040e956abefac179c84800485a1be.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
       </div>
     </div>
 </div>
