@@ -28,7 +28,7 @@ st.markdown('''
 ''', unsafe_allow_html=True)
 
 st.markdown('''
-<img src="https://github.com/dataprofessor/education/raw/master/bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+<img src="https://github.com/dataprofessor/education/raw/master/bootstrap-docs.png">
 ''', unsafe_allow_html=True)
 
 load_css()
