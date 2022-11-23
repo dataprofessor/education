@@ -28,8 +28,8 @@ st.markdown('''
 </div>
 ''', unsafe_allow_html=True)
 
-image = Image.open('bootstrap-docs.png')
-st.image(image)
+#image = Image.open('bootstrap-docs.png')
+#st.image(image)
 
 load_css()
 
