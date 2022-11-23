@@ -29,7 +29,7 @@ st.markdown('''
 ''', unsafe_allow_html=True)
 
 image = Image.open('bootstrap-docs.png')
-st.image(image
+st.image(image)
 
 load_css()
 
