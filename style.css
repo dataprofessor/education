@@ -16,3 +16,6 @@
                 position: relative;
                 top: 90px;
             }
+[data-testid="stVerticalBlock"] {
+                margin-top: 0px;
+            }
