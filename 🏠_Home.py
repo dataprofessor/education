@@ -33,7 +33,7 @@ st.markdown(f'''
 
 image = Image.open('streamlit-cover.png')
 st.write(image)
-image.getvalue().name
+image.getvalue()
 #st.image(image)
 
 
