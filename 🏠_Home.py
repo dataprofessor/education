@@ -25,7 +25,7 @@ st.markdown(f'''
     </div>
     <div class="overflow-hidden" style="max-height: 30vh;">
       <div class="container px-5">
-        {![](streamlit-cover.png)}
+        { ![](streamlit-cover.png) }
       </div>
     </div>
 </div>
