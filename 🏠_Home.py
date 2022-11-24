@@ -31,7 +31,8 @@ st.markdown(f'''
 </div>
 ''', unsafe_allow_html=True)
 
-#image = Image.open('streamlit-cover.png')
+image = Image.open('streamlit-cover.png')
+image.getvalue()
 #st.image(image)
 
 
