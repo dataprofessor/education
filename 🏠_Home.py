@@ -26,7 +26,7 @@ st.markdown(f'''
     </div>
     <div class="overflow-hidden" style="max-height: 30vh;">
       <div class="container px-5">
-        { img_md }
+        { exect(img_md) }
       </div>
     </div>
 </div>
