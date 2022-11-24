@@ -14,7 +14,7 @@ st.set_page_config(
 
 image = Image.open('streamlit-cover.png')
 
-st.markdown('''
+st.markdown(f'''
 <div class="px-4 pt-5 my-5 text-center border-bottom">
     <h1 class="display-4 fw-bold">Centered screenshot</h1>
     <div class="col-lg-6 mx-auto">
