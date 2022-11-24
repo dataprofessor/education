@@ -12,7 +12,7 @@ st.set_page_config(
 #st.header("Welcome to Streamlit Education! 👋")
 #st.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet lacus nulla, vitae faucibus erat cursus ut. Nullam quam lorem, semper eu nulla sit amet, pharetra viverra mi. Donec suscipit ligula metus, nec venenatis orci pellentesque et. Quisque ac sem eros. Duis non tellus vel est dictum interdum. Nam pulvinar mattis rhoncus. In sit amet ante ut odio scelerisque ullamcorper. Aliquam hendrerit facilisis purus eu mollis. Maecenas iaculis eget turpis nec mollis.')
 
-img_md = ![](streamlit-cover.png)
+img_md = "![](streamlit-cover.png)"
 
 st.markdown(f'''
 <div class="px-4 pt-5 my-5 text-center border-bottom">
