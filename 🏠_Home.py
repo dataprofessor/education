@@ -12,7 +12,6 @@ st.set_page_config(
 #st.header("Welcome to Streamlit Education! 👋")
 #st.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet lacus nulla, vitae faucibus erat cursus ut. Nullam quam lorem, semper eu nulla sit amet, pharetra viverra mi. Donec suscipit ligula metus, nec venenatis orci pellentesque et. Quisque ac sem eros. Duis non tellus vel est dictum interdum. Nam pulvinar mattis rhoncus. In sit amet ante ut odio scelerisque ullamcorper. Aliquam hendrerit facilisis purus eu mollis. Maecenas iaculis eget turpis nec mollis.')
 
-image = Image.open('streamlit-cover.png')
 
 st.markdown(f'''
 <div class="px-4 pt-5 my-5 text-center border-bottom">
@@ -26,19 +25,14 @@ st.markdown(f'''
     </div>
     <div class="overflow-hidden" style="max-height: 30vh;">
       <div class="container px-5">
-        <div class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
-          {st.image(image)}
-        </div>
+        <img src="https://education.streamlit.app/~/+/media/c95e53b82610568716fc642535eb5349ca8b2a22f5608e7087a7360c.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
       </div>
     </div>
 </div>
 ''', unsafe_allow_html=True)
 
-# <img src="https://education.streamlit.app/~/+/media/c95e53b82610568716fc642535eb5349ca8b2a22f5608e7087a7360c.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
-
-
-#image = Image.open('streamlit-cover.png')
-#st.image(image)
+image = Image.open('streamlit-cover.png')
+st.image(image)
 
 load_css()
 
