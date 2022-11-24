@@ -34,6 +34,7 @@ st.markdown(f'''
 image = Image.open('streamlit-cover.png')
 st.image(image)
 
+
 load_css()
 
 
