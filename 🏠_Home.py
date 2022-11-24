@@ -24,11 +24,6 @@ st.markdown(f'''
         <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
       </div>
     </div>
-    <div class="overflow-hidden" style="max-height: 30vh;">
-      <div class="container px-5">
-        { exec(img_md) }
-      </div>
-    </div>
 </div>
 ''', unsafe_allow_html=True)
 
