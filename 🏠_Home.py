@@ -32,7 +32,7 @@ st.markdown(f'''
 ''', unsafe_allow_html=True)
 
 image = Image.open('streamlit-cover.png')
-str(image)
+st.write(str(image))
 #st.image(image)
 
 
