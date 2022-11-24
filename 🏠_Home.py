@@ -30,8 +30,9 @@ st.markdown('''
 </div>
 ''', unsafe_allow_html=True)
 
-#image = Image.open('streamlit-cover.png')
-#st.image(image)
+image = Image.open('streamlit-cover.png')
+image
+st.image(image)
 
 load_css()
 
