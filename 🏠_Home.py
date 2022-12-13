@@ -12,7 +12,7 @@ st.set_page_config(
 #st.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet lacus nulla, vitae faucibus erat cursus ut. Nullam quam lorem, semper eu nulla sit amet, pharetra viverra mi. Donec suscipit ligula metus, nec venenatis orci pellentesque et. Quisque ac sem eros. Duis non tellus vel est dictum interdum. Nam pulvinar mattis rhoncus. In sit amet ante ut odio scelerisque ullamcorper. Aliquam hendrerit facilisis purus eu mollis. Maecenas iaculis eget turpis nec mollis.')
 
 heroes_title = "Level up your data app <br> building skills"
-heroes_text = "Streamlit Education is a platform providing students and educators access to tools, learning materials and boilerplate code in order to facilitate the learning and teaching of Streamlit. Whether you’re a novice coder or a veteran, there’s something for everyone."
+heroes_text = "Streamlit Education is a platform providing students and educators access to tools, learning materials and boilerplate code in order to facilitate the learning and teaching of Streamlit. Whether you’re a novice coder or a veteran, there’s something for everyone. <br> Register!"
 
 def heroes(heroes_title_text, heroes_text_text):
     st.markdown(f'''
@@ -22,9 +22,11 @@ def heroes(heroes_title_text, heroes_text_text):
           <p class="lead mb-4">{heroes_text_text}</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
             <a href="https://streamlit.io">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
+                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Educator</button>
             </a>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+            <a href="https://streamlit.io">
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Student</button>
+            </a>
           </div>
         </div>
     </div>
