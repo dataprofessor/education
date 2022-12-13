@@ -18,10 +18,10 @@ def heroes(heroes_title_text, heroes_text_text):
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">{heroes_text_text}</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-            <a href="https://streamlit.io">
+            <a href="https://bit.ly/streamlit-educators">
                 <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Educator</button>
             </a>
-            <a href="https://streamlit.io">
+            <a href="https://bit.ly/streamlit-student-ambassador-app">
                 <button type="button" class="btn btn-outline-secondary btn-lg px-4">Student</button>
             </a>
           </div>
