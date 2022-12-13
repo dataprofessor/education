@@ -3,13 +3,10 @@ from utilities import load_css
 from PIL import Image
 
 st.set_page_config(
-    page_title="Hello",
+    page_title="Welcome to Streamlit Education",
     page_icon="🏠",
     layout="wide"
 )
-
-#st.header("Welcome to Streamlit Education! 👋")
-#st.write('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet lacus nulla, vitae faucibus erat cursus ut. Nullam quam lorem, semper eu nulla sit amet, pharetra viverra mi. Donec suscipit ligula metus, nec venenatis orci pellentesque et. Quisque ac sem eros. Duis non tellus vel est dictum interdum. Nam pulvinar mattis rhoncus. In sit amet ante ut odio scelerisque ullamcorper. Aliquam hendrerit facilisis purus eu mollis. Maecenas iaculis eget turpis nec mollis.')
 
 heroes_title = "Level up your data app <br> building skills"
 heroes_text = "Streamlit Education is a platform providing students and educators access to tools, learning materials and boilerplate code in order to facilitate the learning and teaching of Streamlit. Whether you’re a novice coder or a veteran, there’s something for everyone. <h4>✍️ Register as an Educator or a Student Ambassador:</h4>"
