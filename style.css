@@ -6,16 +6,7 @@
                 background-position: center top;
                 /* background-position: 20px 20px; */
             }
-[data-testid="stSidebarNav"]::before {
-                content: "Menu";
-                padding-bottom: 100px;
-                margin-left: 20px;
-                margin-top: 20px;
-                font-size: 20px;
-                font-weight: bold;
-                position: relative;
 
-            }
 [data-testid="stVerticalBlock"] {
                 margin-top: -135px;
             }
