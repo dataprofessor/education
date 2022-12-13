@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 heroes_title = "Level up your data app <br> building skills"
-heroes_text = "Streamlit Education is a platform providing students and educators access to tools, learning materials and boilerplate code in order to facilitate the learning and teaching of Streamlit. Whether you’re a novice coder or a veteran, there’s something for everyone. <p><b>✍️ Register as an Educator or a Student Ambassador:</b></p>"
+heroes_text = "Streamlit Education is a platform providing students and educators access to tools, learning materials and boilerplate code in order to facilitate the learning and teaching of Streamlit. Whether you’re a novice coder or a veteran, there’s something for everyone. <br><br><b>✍️ Register as an Educator or a Student Ambassador:</b>"
 
 def heroes(heroes_title_text, heroes_text_text):
     st.markdown(f'''
