@@ -37,3 +37,7 @@ p.lead.mb-4.text-bold {
 p {
   font-size: 18px;
 }
+
+ol.li {
+  padding-left: 0rem;
+}
