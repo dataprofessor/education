@@ -6,7 +6,7 @@ st.set_page_config(page_title="Benefits", page_icon="🎁")
 st.header("🎁 Benefits")
 
 st.markdown('''
-<table class="table table-striped table-hover">
+<table class="table">
     <tr>
       <th>Learning materials</td>
       <th>Boilerplate code</td>
