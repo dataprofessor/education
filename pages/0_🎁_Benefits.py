@@ -5,6 +5,52 @@ st.set_page_config(page_title="Benefits", page_icon="🎁")
 
 st.header("🎁 Benefits")
 
+co11, col2 = st.columns(2)
+
+with col1:
+    st.markdown('''
+    <table class="table table-striped">
+        <tr>
+          <th>Learning materials</td>
+        </tr>
+        <tr>
+          <td>
+            <ul>
+              <li>Access to learning curriculum and presentation slides on getting started with Streamlit.</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>App templates to get you up and running in no time.</li>
+            </ul>
+          </td>
+        </tr>
+    </table>
+    ''', unsafe_allow_html=True)
+    
+with col2:
+    st.markdown('''
+        <table class="table table-striped">
+            <tr>
+              <th>Boilerplate code</td>
+            </tr>
+            <tr>
+              <td>
+                <ul>
+                  <li>Collaborative contribution to learning materials to help shape them to be the best educational material on Streamlit.</li>
+                </ul>
+              </td>
+              <td>
+                <ul>
+                  <li>Curation of example apps from various domains that can help inspire your own app creations.</li>
+                </ul>
+              </td>
+            </tr>
+        </table>
+        ''', unsafe_allow_html=True)
+    
+    
+    
 st.markdown('''
 <table class="table table-striped">
     <tr>
