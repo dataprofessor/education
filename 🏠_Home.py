@@ -8,12 +8,15 @@ st.set_page_config(
     layout="wide"
 )
 
-heroes_title = 'Level up your data app <br> building skills'
-heroes_text = '''
-Streamlit Education is a platform providing students and educators access to tools, learning materials and boilerplate code in order to facilitate the learning and teaching of Streamlit. Whether you’re a novice coder or a veteran, there’s something for everyone. 
-<br><br>
-✍️ Register as an Educator or a Student Ambassador:
-'''
+#heroes_title = 'Level up your data app <br> building skills'
+#heroes_text = '''
+#Streamlit Education is a platform providing students and educators access to tools, learning materials and boilerplate code in order to facilitate the learning and teaching of Streamlit. Whether you’re a novice coder or a veteran, there’s something for everyone. 
+#<br><br>
+#✍️ Register as an Educator or a Student Ambassador:
+#'''
+
+st.header('Level up your data app <br> building skills')
+
 
 st.markdown(heroes_title, unsafe_allow_html=True)
 st.markdown(heroes_text, unsafe_allow_html=True)
