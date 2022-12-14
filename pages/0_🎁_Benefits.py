@@ -19,6 +19,9 @@ st.markdown('''
           <li>
             Access to learning curriculum and presentation slides on getting started with Streamlit
           </li>
+          <li>
+            Collaborative contribution to learning materials to help shape them to be the best educational material on Streamlit.
+          </li>
         </ul>
       </td>
       <td>
