@@ -17,8 +17,6 @@ st.set_page_config(
 
 st.header('Level up your data app building skills')
 
-
-st.markdown(heroes_title, unsafe_allow_html=True)
 st.markdown(heroes_text, unsafe_allow_html=True)
 
 educator = st.button('Educator')
