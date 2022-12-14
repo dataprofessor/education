@@ -17,7 +17,9 @@ Streamlit Education is a platform providing students and educators access to too
 
 st.header('Level up your data app building skills')
 
-st.markdown(heroes_text, unsafe_allow_html=True)
+st.markdown('### Streamlit Education is a platform providing students and educators access to tools, learning materials and boilerplate code in order to facilitate the learning and teaching of Streamlit. Whether you’re a novice coder or a veteran, there’s something for everyone.')
+
+st.markdown('## ✍️ Register as an Educator or a Student Ambassador:')
 
 educator = st.button('Educator')
 if educator:
