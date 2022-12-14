@@ -20,7 +20,6 @@
 
 div.css-1uii870.e16nr0p34 {
   margin-top: -30px;
-  font-size: 32px;
 }
 
 div.css-j7qwjs.e1fqkh3o7 {
@@ -33,4 +32,8 @@ div.css-zt5igj.e16nr0p33 {
 
 p.lead.mb-4.text-bold {
   font-weight: 900;
+}
+
+p {
+  font-size: 32px;
 }
