@@ -15,7 +15,11 @@ st.markdown('''
     </tr>
     <tr>
       <td>
-        Access to learning curriculum and presentation slides on getting started with Streamlit
+        <ul>
+          <li>
+            Access to learning curriculum and presentation slides on getting started with Streamlit
+          </li>
+        </ul>
       </td>
       <td>
         App templates to get you up and running in no time.
@@ -30,7 +34,5 @@ st.markdown('''
 </table>
 ''', unsafe_allow_html=True)
 
-st.markdown('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">', unsafe_allow_html=True)
-st.markdown('<i class="bi bi-youtube"></i>', unsafe_allow_html=True)
 
 load_css()
