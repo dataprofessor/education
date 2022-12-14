@@ -16,22 +16,27 @@ st.markdown('''
     <tr>
       <td>
         <ul>
-          <li>
-            Access to learning curriculum and presentation slides on getting started with Streamlit
-          </li>
-          <li>
-            Collaborative contribution to learning materials to help shape them to be the best educational material on Streamlit.
-          </li>
+          <li>Access to learning curriculum and presentation slides on getting started with Streamlit.</li>
+          <li>Collaborative contribution to learning materials to help shape them to be the best educational material on Streamlit.</li>
         </ul>
       </td>
       <td>
-        App templates to get you up and running in no time.
+        <ul>
+          <li>App templates to get you up and running in no time.</li>
+          <li>Curation of example apps from various domains that can help inspire your own app creations.</li>
+        </ul>
       </td>
       <td>
-        Additional features/resources for Streamlit Community Cloud.
+        <ul>
+          <li>Additional features/resources for Streamlit Community Cloud.</li>
+          <li>Exclusive pre-release access to new features in Streamlit and Streamlit Community Cloud.</li>
+        </ul>
       </td>
       <td>
-        Network with fellow student/educator ambassadors
+        <ul>
+          <li>Network with fellow student/educator ambassadors.</li>
+          <li>Share best practices.</li>
+        </ul>
       </td>
     </tr>
 </table>
