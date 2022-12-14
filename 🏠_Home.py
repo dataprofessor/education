@@ -19,7 +19,7 @@ st.header('**Level up your data app building skills**')
 
 st.markdown('Streamlit Education is a platform providing students and educators access to tools, learning materials and boilerplate code in order to facilitate the learning and teaching of Streamlit. Whether you’re a novice coder or a veteran, there’s something for everyone.')
 
-st.markdown('<div class="registerText">✍️ Register as an Educator or a Student Ambassador:'</div>, unsafe_allow_html=True)
+st.markdown('<div class="registerText">✍️ Register as an Educator or a Student Ambassador:</div>', unsafe_allow_html=True)
 
 educator = st.button('Educator')
 if educator:
