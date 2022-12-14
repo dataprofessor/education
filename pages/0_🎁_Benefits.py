@@ -12,7 +12,7 @@ with col1:
     st.markdown('''
     <table class="table table-striped">
         <tr>
-          <th>Learning materials</td>
+          <th>📓 Learning materials</td>
         </tr>
         <tr>
           <td>
@@ -29,7 +29,7 @@ with col2:
     st.markdown('''
         <table class="table table-striped">
             <tr>
-              <th>Boilerplate code</td>
+              <th>📝 Boilerplate code</td>
             </tr>
             <tr>
               <td>
@@ -46,7 +46,7 @@ with col3:
     st.markdown('''
     <table class="table table-striped">
         <tr>
-          <th>Tools</td>
+          <th>🛠 Tools</td>
         </tr>
         <tr>
           <td>
@@ -63,7 +63,7 @@ with col4:
     st.markdown('''
     <table class="table table-striped">
         <tr>
-          <th>Community</td>
+          <th>👥 Community</td>
         </tr>
         <tr>
           <td>
