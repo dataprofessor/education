@@ -31,7 +31,7 @@ def heroes(heroes_title_text, heroes_text_text, heroes_text_2):
     </div>
     ''', unsafe_allow_html=True)
 
-heroes(heroes_title, heroes_text)  
+heroes(heroes_title, heroes_text, heroes_text_2)  
 
 
 
