@@ -6,7 +6,6 @@ st.set_page_config(page_title="Educator", page_icon="🍎")
 st.header("🍎 Educator")
 
 st.markdown('''
-
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
