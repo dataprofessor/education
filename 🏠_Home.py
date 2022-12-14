@@ -15,7 +15,7 @@ st.set_page_config(
 #✍️ Register as an Educator or a Student Ambassador:
 #'''
 
-st.header('Level up your data app <br> building skills')
+st.header('Level up your data app building skills')
 
 
 st.markdown(heroes_title, unsafe_allow_html=True)
