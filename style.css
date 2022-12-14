@@ -38,3 +38,6 @@ p {
   font-size: 18px;
 }
 
+ol, li {
+    padding-left: 1rem;
+}
