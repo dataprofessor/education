@@ -14,7 +14,7 @@ heroes_text_2 = '✍️ Register as an Educator or a Student Ambassador:'
 
 def heroes(heroes_title_text, heroes_text_text, heroes_text_text_2):
     st.markdown(f'''
-    <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <div class="px-4 pt-5 my-5 text-center">
         <h1 class="display-4 fw-bold">{heroes_title_text}</h1>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">{heroes_text_text}</p>
