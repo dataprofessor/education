@@ -38,6 +38,6 @@ p {
   font-size: 18px;
 }
 
-[class="table table-striped"] {
+ol.li {
     padding-left: 0rem;
 }
