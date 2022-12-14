@@ -10,8 +10,6 @@ st.markdown('''
     <tr>
       <th>Learning materials</td>
       <th>Boilerplate code</td>
-      <th>Tools</td>
-      <th>Community</td>
     </tr>
     <tr>
       <td>
@@ -26,6 +24,17 @@ st.markdown('''
           <li>Curation of example apps from various domains that can help inspire your own app creations.</li>
         </ul>
       </td>
+    </tr>
+</table>
+''', unsafe_allow_html=True)
+
+st.markdown('''
+<table class="table table-striped">
+    <tr>
+      <th>Tools</td>
+      <th>Community</td>
+    </tr>
+    <tr>
       <td>
         <ul>
           <li>Additional features/resources for Streamlit Community Cloud.</li>
@@ -41,6 +50,5 @@ st.markdown('''
     </tr>
 </table>
 ''', unsafe_allow_html=True)
-
 
 load_css()
