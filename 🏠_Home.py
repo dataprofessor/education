@@ -5,7 +5,8 @@ from PIL import Image
 st.set_page_config(
     page_title="Welcome to Streamlit Education",
     page_icon="🏠",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 heroes_title = 'Level up your data app <br> building skills'
