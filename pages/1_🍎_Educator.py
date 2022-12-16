@@ -2,7 +2,7 @@ import streamlit as st
 from utilities import load_css
 from streamlit_image_select import image_select
 
-st.set_page_config(page_title="Educator", page_icon="🍎", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Educator", page_icon="🍎", initial_sidebar_state="expanded", layout="wide")
 
 # Initialization
 if 'key' not in st.session_state:
@@ -10,11 +10,9 @@ if 'key' not in st.session_state:
 
 st.header("🍎 Educator")
 
-col1, col2 = st.columns([4,1])
-with col1:   
-  st.image(st.session_state['img'])
-with col2:
-  st.session_state['img'] = image_select("Label", ["img/educator_1.png", "img/educator_2.png", "img/educator_3.png", "img/educator_4.png", "img/educator_5.png"])
+
+st.image(st.session_state['img'])
+st.session_state['img'] = image_select("Label", ["img/educator_1.png", "img/educator_2.png", "img/educator_3.png", "img/educator_4.png", "img/educator_5.png"])
 
 
 st.markdown('''
