@@ -5,7 +5,7 @@ from streamlit_image_select import image_select
 st.set_page_config(page_title="Educator", page_icon="🍎", initial_sidebar_state="expanded", layout="wide")
 
 # Initialization
-if 'key' not in st.session_state:
+if 'img' not in st.session_state:
     st.session_state['img'] = "img/educator_1.png"
 
 st.header("🍎 Educator")
