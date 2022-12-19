@@ -14,6 +14,13 @@ st.header("🍎 Educator")
 st.image(st.session_state['img'])
 st.session_state['img'] = image_select("Double click on an image below:", ["img/educator_1.png", "img/educator_2.png", "img/educator_3.png", "img/educator_4.png", "img/educator_5.png"])
 
+st.header("About")
+
+st.markdown('''
+The Streamlit for Education program enables educators and students to use Streamlit in the classroom and share best practices with the greater community. The first cohort launches in January 2023.
+Our Educator Ambassador program supports educators using Streamlit in the classroom.
+''')
+
 st.header("Become an Educator Ambassador")
 
 st.markdown('''
