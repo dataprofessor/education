@@ -2,7 +2,7 @@ import streamlit as st
 from utilities import load_css
 from streamlit_image_select import image_select
 
-st.set_page_config(page_title="Educator", page_icon="🍎", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Educator", page_icon="🍎", initial_sidebar_state="expanded", layout="wide")
 
 # Initialization
 if 'img' not in st.session_state:
