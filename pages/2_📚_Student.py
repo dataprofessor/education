@@ -13,5 +13,13 @@ st.header("📚 Student")
 st.image(st.session_state['img'])
 st.session_state['img'] = image_select("Double click on an image below:", ["img/student_1.png", "img/student_2.png", "img/student_3.png", "img/student_4.png", "img/student_5.png"])
 
+st.header("Become an Student Ambassador")
+
+st.markdown('''
+    <a href="https://bit.ly/streamlit-student-ambassador-app">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Student</button>
+    </a>
+''', unsafe_allow_html=True)
+      
 
 load_css()
