@@ -21,9 +21,9 @@ The Streamlit for Education program enables educators and students to use Stream
 Our Student Ambassador program guides students from building apps to mastering Streamlit.
 
 Benefits of joining:
-:ledger: Educational resources
-:handshake: A community of educators/learners using Streamlit
-:cloud: Hosting support for education-related apps
+- :ledger: Educational resources
+- :handshake: A community of educators/learners using Streamlit
+- :cloud: Hosting support for education-related apps
 ''')
 
 st.header("Become an Student Ambassador")
