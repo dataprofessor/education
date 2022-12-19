@@ -1,9 +1,9 @@
 import streamlit as st
 from utilities import load_css
 
-st.set_page_config(page_title="Why learn Streamlit?", page_icon="🎈", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Why Learn Streamlit?", page_icon="🎈", initial_sidebar_state="expanded")
 
-st.header("🎈 Why learn Streamlit?")
+st.header("🎈 Why Learn Streamlit?")
 
 st.markdown('''
 ## 🐍 Importance of Python
