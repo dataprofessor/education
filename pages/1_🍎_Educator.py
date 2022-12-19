@@ -18,7 +18,7 @@ st.header("Become an Educator Ambassador")
 
 st.markdown('''
     <a href="https://bit.ly/streamlit-educators">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Educator</button>
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Sign up!</button>
     </a>
 ''', unsafe_allow_html=True)
             
