@@ -13,6 +13,19 @@ st.header("📚 Student")
 st.image(st.session_state['img'])
 st.session_state['img'] = image_select("Double click on an image below:", ["img/student_1.png", "img/student_2.png", "img/student_3.png", "img/student_4.png", "img/student_5.png"])
 
+st.header("About")
+
+st.markdown('''
+The Streamlit for Education program enables educators and students to use Streamlit in the classroom and share best practices with the greater community. The first cohort launches in January 2023.
+
+Our Student Ambassador program guides students from building apps to mastering Streamlit.
+
+Benefits of joining:
+:ledger: Educational resources
+:handshake: A community of educators/learners using Streamlit
+:cloud: Hosting support for education-related apps
+''')
+
 st.header("Become an Student Ambassador")
 
 st.markdown('''
