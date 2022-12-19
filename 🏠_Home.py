@@ -9,7 +9,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-heroes_title = 'Level up your data app <br> building skills'
+heroes_title = 'Level up your data app <br> building/teaching!'
 heroes_text = 'Streamlit Education is a platform providing students and educators access to tools, learning materials and boilerplate code in order to facilitate the learning and teaching of Streamlit. Whether you’re a novice coder or a veteran, there’s something for everyone.'
 heroes_text_2 = '✍️ Apply to become an Educator or a Student Ambassador:'
 
