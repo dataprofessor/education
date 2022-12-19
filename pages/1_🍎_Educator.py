@@ -20,8 +20,10 @@ st.markdown('''
 The Streamlit for Education program enables educators and students to use Streamlit in the classroom and share best practices with the greater community. The first cohort launches in January 2023.
 
 Our Educator Ambassador program supports educators using Streamlit in the classroom.
+''')
 
 st.header("Benefits")
+st.markdown('''
 :ledger: Educational resources
 
 :handshake: A community of educators/learners using Streamlit
@@ -29,7 +31,7 @@ st.header("Benefits")
 :cloud: Hosting support for education-related apps
 ''')
 
-st.header("Become an Educator Ambassador")
+st.header("Apply")
 
 st.markdown('''
     <a href="https://bit.ly/streamlit-educators">
