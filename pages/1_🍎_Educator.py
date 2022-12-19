@@ -18,6 +18,7 @@ st.header("About")
 
 st.markdown('''
 The Streamlit for Education program enables educators and students to use Streamlit in the classroom and share best practices with the greater community. The first cohort launches in January 2023.
+
 Our Educator Ambassador program supports educators using Streamlit in the classroom.
 ''')
 
