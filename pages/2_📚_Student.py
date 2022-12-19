@@ -30,7 +30,7 @@ st.markdown('''
 :cloud: Hosting support for education-related apps
 ''')
 
-st.header("Become a Student Ambassador")
+st.header("Apply")
 
 st.markdown('''
     <a href="https://bit.ly/streamlit-student-ambassador-app">
