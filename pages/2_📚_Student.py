@@ -29,11 +29,11 @@ Benefits of joining:
 :cloud: Hosting support for education-related apps
 ''')
 
-st.header("Become an Student Ambassador")
+st.header("Become a Student Ambassador")
 
 st.markdown('''
     <a href="https://bit.ly/streamlit-student-ambassador-app">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Sign up!</button>
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Apply to become a Student Ambassador!</button>
     </a>
 ''', unsafe_allow_html=True)
       
