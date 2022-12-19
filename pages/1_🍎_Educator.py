@@ -21,8 +21,7 @@ The Streamlit for Education program enables educators and students to use Stream
 
 Our Educator Ambassador program supports educators using Streamlit in the classroom.
 
-Benefits of joining:
-
+st.header("Benefits")
 :ledger: Educational resources
 
 :handshake: A community of educators/learners using Streamlit
