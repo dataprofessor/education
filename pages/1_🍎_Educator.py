@@ -12,7 +12,7 @@ st.header("🍎 Educator")
 
 
 st.image(st.session_state['img'])
-st.session_state['img'] = image_select("Double click an image below:", ["img/educator_1.png", "img/educator_2.png", "img/educator_3.png", "img/educator_4.png", "img/educator_5.png"])
+st.session_state['img'] = image_select("Double click on an image below:", ["img/educator_1.png", "img/educator_2.png", "img/educator_3.png", "img/educator_4.png", "img/educator_5.png"])
 
 
 load_css()
