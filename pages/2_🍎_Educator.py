@@ -10,9 +10,9 @@ if 'img' not in st.session_state:
 
 st.header("🍎 Educator")
 
-
-st.image(st.session_state['img'])
+placeholder = st.empty()
 st.session_state['img'] = image_select("Double click on an image below:", ["img/educator_1.png", "img/educator_2.png", "img/educator_3.png", "img/educator_4.png", "img/educator_5.png"])
+placeholder.image(st.session_state['img'])
 
 st.header("About")
 
